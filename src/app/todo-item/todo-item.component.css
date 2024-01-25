@@ -1,0 +1,22 @@
+.card {
+    margin-left: 325px;
+  }
+
+  .form-check-input {
+    border-color: gray;
+    border-radius: 50%;
+  }
+
+  .form-check-input:checked {
+    border-color: green;
+    background-color: green;
+    border-radius: 50%;
+  }
+
+  .btn-x:hover {
+    color: red;
+  }
+
+  .card:hover {
+    border-color: green;
+  }

@@ -1,0 +1,13 @@
+@if (todo.length > 0) {
+    <div class="card mt-3 h-5 w-50 dash">
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <p style="display: inline; padding-top: 18px;">{{activeTodos.length}} items left</p>
+          <div class="d-flex">
+            <button routerLink="/" class="btns">All</button>
+            <button routerLink="/Active" class="btn">Active</button>
+            <button routerLink="/Completed" class="btns">Completed</button>
+          </div>
+          <button class="btns ml-auto">Clear All Completed</button>
+        </div>
+      </div>
+}

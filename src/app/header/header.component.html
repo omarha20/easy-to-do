@@ -1,0 +1,12 @@
+<div class="title">
+    <h1 class="text-lg"><span class="easy">Easy</span> To Do </h1>
+  </div>
+
+  <div class="group">
+    @if (todos.length > 0) {
+    <button (click)="toggle()" style="cursor: pointer; background: transparent; border: none; margin-left: -32px;">
+      <i class="bi bi-arrow-down"></i>
+    </button>
+    }
+    <input [(ngModel)]="note" (keydown.enter)="Add()" class="input" placeholder="What needs to be done ?" />
+  </div>

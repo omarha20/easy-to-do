@@ -1,0 +1,28 @@
+.btns {
+    margin-right: 2px;
+  }
+
+  .dash button {
+    border: none;
+    background-color: transparent;
+  }
+  .card {
+    margin-left: 325px;
+  }
+  .card:hover {
+    border-color: green;
+  }
+  .dash button:hover {
+    outline: none;
+    border-radius: 9px;
+    border-color: green;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 255, 0, 0.7);
+  }
+  .dash button:focus {
+    outline: none;
+    border-radius: 9px;
+    border-color: green;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 255, 0, 0.7);
+  }

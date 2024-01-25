@@ -1,0 +1,13 @@
+<div class="card mt-3 h-25 w-50">
+    <div class="card-body">
+      <div class="form-check d-flex align-items-center justify-content-between">
+        <div>
+          <input (change)="setStyles($event)" class="form-check-input" type="checkbox" value="" id="flexCheckDefault" [checked]="todo.completed"/>
+          <p class="m-0 ms-2" style="display: inline;" [ngStyle]="todo.currentStyles">{{todo.title}}</p>
+        </div>
+        <button (click)="remove($event)" style="cursor: pointer; background: transparent; border: none;">
+          <i class="bi bi-x-lg btn-x"></i>
+        </button>
+      </div>
+    </div>
+  </div>
